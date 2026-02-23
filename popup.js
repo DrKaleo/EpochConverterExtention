@@ -1,3 +1,5 @@
+//Dev Note: This was 100% Vibed
+
 // 1. Live Epoch Counter
 function updateLiveEpoch() {
   const now = Math.floor(Date.now() / 1000);
@@ -38,5 +40,4 @@ document.getElementById('datePicker').addEventListener('input', (e) => {
 // Click to copy live epoch
 document.getElementById('currentEpoch').addEventListener('click', () => {
   navigator.clipboard.writeText(document.getElementById('currentEpoch').innerText);
-  alert('Epoch copied!');
 });
