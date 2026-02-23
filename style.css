@@ -1,0 +1,21 @@
+body {
+  width: 250px;
+  padding: 15px;
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#result {
+  font-weight: bold;
+  color: #2c3e50;
+  word-wrap: break-word;
+  padding: 10px;
+  background: #f8f9fa;
+}
+.hint { font-size: 0.8rem; color: #666; }
